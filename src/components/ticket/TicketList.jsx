@@ -73,7 +73,7 @@ class TicketList extends Component {
     let filterTickets = filteredTickets.slice();
     console.log('FILTER_DO_PEREDACHI', filter);
     const ticketList = filterTickets.map((item) => {
-      return (<TicketItem ticket={item} filter={this.props}/>)
+      return (<TicketItem ticket={item} currency={filter.currency}/>)
     });
     return (
         <div>

@@ -4,8 +4,8 @@ import logo from '../../static/images/dddb6e70e25fdd6553238ce7aecfa37661376fbb.p
 import plane from '../../static/images/plane-silhouette-grey.svg'
 
 
-const TicketItem = ({ticket}, {filter}) => {
-  console.log('TICKET_FILTER', ticket, filter);
+const TicketItem = ( {ticket, currency}) => {
+  console.log('TICKET_FILTER', ticket, currency);
   const converterCurrency = (currency, price) => {
     switch (currency) {
       case 'EUR':
@@ -16,8 +16,8 @@ const TicketItem = ({ticket}, {filter}) => {
         return {newCurrency: '₽', newPrice: price}
     }
   };
-  const convert = converterCurrency(filter.currency, ticket.price);
-  console.log(filter.currency, ticket.price);
+  const convert = converterCurrency(currency, ticket.price);
+  console.log(currency, ticket.price);
   return (
       <div className='ticket'>
         <div className='logo-with-button'>
