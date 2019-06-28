@@ -5,6 +5,7 @@ import { setTickets} from "../actions/ticketActions";
 import Ticket from '../components/Ticket'
 import Filter from '../components/filter/Filter'
 import '../styles/App.css'
+import TicketList from "../components/ticket/TicketList";
 
 const data = require('../services/db/tickets');
 
@@ -20,7 +21,7 @@ class App extends React.Component {
     return (
         <div className='components'>
           <Filter/>
-          <Ticket/>
+          <TicketList/>
         </div>
     );
   }

@@ -13,9 +13,7 @@ class Filter extends React.Component {
         <div className="choice-currency">
           <Currency/>
         </div>
-        <div className="choice-transfer">
           <Transfer/>
-        </div>
       </div>
     );
   }

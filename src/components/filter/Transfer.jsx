@@ -13,9 +13,9 @@ class Transfer extends React.Component {
 
   render() {
     return (
-        <div>
-          <div className="label-transfer">КОЛИЧЕСТВО ПЕРЕСАДОК</div>
-          <label className="container">
+        <div className='choice-transfer'>
+          <div className="transfer_label">КОЛИЧЕСТВО ПЕРЕСАДОК</div>
+          <label className="transfer_item">
              <span className="checkbox-cont">
               <input
                   type="checkbox"
@@ -24,7 +24,7 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">Все</p>
           </label>
-          <label className="container">
+          <label className="transfer_item">
              <span className="checkbox-cont">
               <input
                   type="checkbox"
@@ -33,7 +33,7 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">Без пересадок</p>
           </label>
-          <label className="container">
+          <label className="transfer_item">
              <span className="checkbox-cont">
               <input
                   type="checkbox"
@@ -42,7 +42,7 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">1 пересадка</p>
           </label>
-          <label className="container">
+          <label className="transfer_item">
              <span className="checkbox-cont">
               <input
                   type="checkbox"
@@ -51,7 +51,7 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">2 пересадки</p>
           </label>
-          <label className="container">
+          <label className="transfer_item">
              <span className="checkbox-cont">
               <input
                   type="checkbox"
