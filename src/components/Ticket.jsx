@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types'
-import '../styles/Ticket.css'
+import '../scss/Ticket.scss'
 import logo from '../static/images/dddb6e70e25fdd6553238ce7aecfa37661376fbb.png'
 import plane from '../static/images/plane-silhouette-grey.svg'
 import {setCurrency} from "../actions/filterActions";

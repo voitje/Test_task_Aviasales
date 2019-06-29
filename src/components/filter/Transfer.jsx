@@ -1,6 +1,5 @@
 import React from 'react';
 import {connect} from "react-redux";
-import "../../styles/Filter.css";
 import {setTransfer} from "../../actions/filterActions";
 
 class Transfer extends React.Component {

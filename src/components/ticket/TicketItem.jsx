@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Ticket.css'
+
 import logo from '../../static/images/dddb6e70e25fdd6553238ce7aecfa37661376fbb.png'
 import plane from '../../static/images/plane-silhouette-grey.svg'
 

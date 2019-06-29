@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Filter.css";
+import '../../scss/Filter.scss'
 import {connect} from "react-redux";
 import {setCurrency, setTransfer} from "../../actions/filterActions";
 import Currency from './Currency';

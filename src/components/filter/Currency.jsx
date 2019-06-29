@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import "../../styles/Filter.css"
+
 import {setCurrency} from "../../actions/filterActions";
 
 class Currency extends React.Component {

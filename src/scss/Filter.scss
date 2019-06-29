@@ -1,7 +1,6 @@
-$var1: #2196f3;
-$var2: #f2fcff;
-$var3: #64b5f5;
-$var4: #2196F3;
+$dodgerBlue: #2196f3;
+$azure: #f2fcff;
+$mayaBlue: #64b5f5;
 
 .filter-tickets {
   height: 340px;
@@ -30,21 +29,21 @@ $var4: #2196F3;
   border: 1px solid rgba(0,0,0,0.2);
   height: 45px;
   width: 70px;
-  color: $var1;
+  color: $dodgerBlue;
   &:hover {
-    background: $var2;
-    border: 1px solid $var3;
+    background: $azure;
+    border: 1px solid $mayaBlue;
     outline: none;
   }
   &--checked {
-    background: $var1;
+    background: $dodgerBlue;
     color: #ffff;
-    border: 1px solid $var3;
+    border: 1px solid $mayaBlue;
     outline: none;
     &:hover {
-      background: $var1;
+      background: $dodgerBlue;
       color: #ffff;
-      border: 1px solid $var3;
+      border: 1px solid $mayaBlue;
       outline: none;
     }
   }
@@ -135,22 +134,22 @@ $var4: #2196F3;
     height: 0;
     width: 0;
     &:checked ~ .checkmate {
-      background-color: $var2;
-      border: 1px solid $var4;
+      background-color: $azure;
+      border: 1px solid $dodgerBlue;
       &:after {
         display: block;
       }
     }
   }
   &:hover {
-    background-color: $var2;
+    background-color: $azure;
   }
   &:after {
     left: 9px;
     top: 5px;
     width: 5px;
     height: 10px;
-    border: solid $var4;
+    border: solid $dodgerBlue;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -175,7 +174,7 @@ $var4: #2196F3;
     top: 5px;
     width: 5px;
     height: 10px;
-    border: solid $var4;
+    border: solid $dodgerBlue;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {setCurrency} from "../../actions/filterActions";
 import {setTickets} from "../../actions/ticketActions";
 import {connect} from "react-redux";
-import '../../styles/Ticket.css'
+
 import TicketItem from "./TicketItem";
 
 class TicketList extends Component {
@@ -76,7 +76,7 @@ class TicketList extends Component {
       return (<TicketItem ticket={item} currency={filter.currency}/>)
     });
     return (
-        <div>
+        <div className='ticket-list'>
           {ticketList}
         </div>
     );
