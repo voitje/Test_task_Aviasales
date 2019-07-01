@@ -12,10 +12,10 @@ class Transfer extends React.Component {
 
   render() {
     return (
-        <div className='choice-transfer'>
-          <div className="transfer_label">КОЛИЧЕСТВО ПЕРЕСАДОК</div>
-          <label className="transfer_item">
-             <span className="checkbox-cont">
+        <div className='transfer'>
+          <div className="transfer__label">КОЛИЧЕСТВО ПЕРЕСАДОК</div>
+          <label className="transfer__item">
+             <span className="transfer__item_checkbox">
               <input
                   type="checkbox"
                   onClick={() => this.handleCheckBoxClick(0)}/>
@@ -23,8 +23,8 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">Все</p>
           </label>
-          <label className="transfer_item">
-             <span className="checkbox-cont">
+          <label className="transfer__item">
+             <span className="transfer__item_checkbox">
               <input
                   type="checkbox"
                   onClick={() => this.handleCheckBoxClick(1)}/>
@@ -32,8 +32,8 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">Без пересадок</p>
           </label>
-          <label className="transfer_item">
-             <span className="checkbox-cont">
+          <label className="transfer__item">
+             <span className="transfer__item_checkbox">
               <input
                   type="checkbox"
                   onClick={() => this.handleCheckBoxClick(2)}/>
@@ -41,8 +41,8 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">1 пересадка</p>
           </label>
-          <label className="transfer_item">
-             <span className="checkbox-cont">
+          <label className="transfer__item">
+             <span className="transfer__item_checkbox">
               <input
                   type="checkbox"
                   onClick={() => this.handleCheckBoxClick(3)}/>
@@ -50,8 +50,8 @@ class Transfer extends React.Component {
              </span>
             <p className="choice-transfer__item">2 пересадки</p>
           </label>
-          <label className="transfer_item">
-             <span className="checkbox-cont">
+          <label className="transfer__item">
+             <span className="transfer__item_checkbox">
               <input
                   type="checkbox"
                   onClick={() => this.handleCheckBoxClick(4)}/>

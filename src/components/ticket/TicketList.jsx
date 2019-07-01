@@ -7,7 +7,7 @@ import TicketItem from "./TicketItem";
 
 class TicketList extends Component {
 
-  filterTranser = () => {
+  filterTransfer = () => {
     const { tickets, filter } = this.props;
     let filterTickets = [];
     if (filter.transfer[0] === true)
@@ -68,10 +68,8 @@ class TicketList extends Component {
 
   render() {
     const { filter } = this.props;
-    let filteredTickets = this.filterTranser();
-    console.log(filteredTickets);
+    let filteredTickets = this.filterTransfer();
     let filterTickets = filteredTickets.slice();
-    console.log('FILTER_DO_PEREDACHI', filter);
     const ticketList = filterTickets.map((item) => {
       return (<TicketItem ticket={item} currency={filter.currency}/>)
     });

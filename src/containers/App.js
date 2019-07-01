@@ -2,9 +2,8 @@ import React from 'react';
 import { connect} from "react-redux";
 import { setCurrency} from "../actions/filterActions";
 import { setTickets} from "../actions/ticketActions";
-import Ticket from '../components/Ticket'
 import Filter from '../components/filter/Filter'
-import '../styles/App.css'
+import '../scss/App.scss'
 import TicketList from "../components/ticket/TicketList";
 
 const data = require('../services/db/tickets');
@@ -17,7 +16,6 @@ class App extends React.Component {
   }
 
   render() {
-    const { filter, tickets, setTicketsAction} = this.props;
     return (
         <div className='components'>
           <Filter/>
